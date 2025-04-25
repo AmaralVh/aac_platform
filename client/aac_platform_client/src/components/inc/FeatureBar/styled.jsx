@@ -8,16 +8,10 @@ export const FeatBarContainer = styled.div`
   align-items: center;
   justify-content: space-between;
   filter: drop-shadow(0 4px 8px grey);
-  padding: 0 14vw 0 4vw;
   box-sizing: border-box;
   z-index: 4;
-
-  ${({ $editing }) =>
-    $editing &&
-    `
-      padding: 0 4vw 0 4vw;
-    `
-  }
+  padding: 0 4vw 0 4vw;
+    
 `;
 
 export const DivBack = styled.div`

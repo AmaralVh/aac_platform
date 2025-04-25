@@ -4,7 +4,6 @@ import SideBar from '../inc/SideBar';
 import Board from '../inc/Board';
 import { useCell } from '../contexts/CellContext';
 import ConfigMenu from '../inc/ConfigMenu';
-import { BoardContextProvider } from '../contexts/BoardContext';
 import { PhraseContextProvider } from '../contexts/PhraseContext';
 import { useSidebar } from '../contexts/SideBarContext';
 import { useBoard } from '../contexts/BoardContext';

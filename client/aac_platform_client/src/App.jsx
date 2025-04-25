@@ -7,6 +7,7 @@ import { PageContextProvider } from "./components/contexts/PageContext";
 import { BoardContextProvider } from "./components/contexts/BoardContext";
 import { UserContextProvider } from "./components/contexts/UserContext";
 import { SidebarProvider } from "./components/contexts/SideBarContext";
+import { ScanningContextProvider } from "./components/contexts/ScanningContext";
 
 const AppContainer = styled.div`
   height: 100%;
@@ -22,6 +23,13 @@ const GlobalStyle = createGlobalStyle`
   #root {
     height: 100%;
   }
+
+  .scanned-highlight {
+    outline: 4px solid dodgerblue;
+    outline-offset: 3px;
+    box-shadow: 0 0 12px rgba(30, 144, 255, 0.8);
+    transition: outline 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
 `;
 
 function App() {
@@ -29,17 +37,19 @@ function App() {
     <AppContainer>
       <GlobalStyle/>
         <BrowserRouter>
-          <SidebarProvider>
-            <UserContextProvider>
-              <PageContextProvider>
-                <BoardContextProvider>
-                  <CellContextProvider>
-                    <Router/>
-                  </CellContextProvider>
-                </BoardContextProvider>
-              </PageContextProvider>
-            </UserContextProvider>
-          </SidebarProvider>
+          <ScanningContextProvider>
+            <SidebarProvider>
+              <UserContextProvider>
+                <PageContextProvider>
+                  <BoardContextProvider>
+                    <CellContextProvider>
+                      <Router/>
+                    </CellContextProvider>
+                  </BoardContextProvider>
+                </PageContextProvider>
+              </UserContextProvider>
+            </SidebarProvider>
+          </ScanningContextProvider>
         </BrowserRouter>
     </AppContainer>
   );

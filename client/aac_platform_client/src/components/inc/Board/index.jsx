@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, useCallback, createRef } from "react";
 import { useCell } from "../../contexts/CellContext";
 import Cell from "../Cell";
 import BoardPreview from '../PageLibrary/BoardPreview';
@@ -9,6 +9,7 @@ import {
 import { useBoard } from "../../contexts/BoardContext";
 import api from "../../../services/api";
 import CellPreview from "../CellPreview";
+import { useScanning } from "../../contexts/ScanningContext";
 
 
 function Board() {
@@ -20,6 +21,47 @@ function Board() {
   const [hasBoardChanges, setHasBoardChanges] = useState(false);
   const prevConfigCellRef = useRef(configCell);
   const prevConfigBoardRef = useRef(configBoard);
+  const { registerScannableElements, clearScannableElements } = useScanning();
+
+  // Gerencia refs APENAS para as células
+  const cellRefs = useRef([]);
+
+  // Garante que temos o número certo de refs para as células
+  const numCells = board?.numCells || 0;
+  useEffect(() => {
+    if (cellRefs.current.length !== numCells) {
+      // Cria/mantém refs existentes, adiciona novas se necessário
+      cellRefs.current = Array(numCells).fill().map(
+        (_, i) => cellRefs.current[i] || createRef()
+      );
+    }
+     // Remove refs extras se numCells diminuiu
+     if (cellRefs.current.length > numCells) {
+        cellRefs.current.length = numCells;
+    }
+  }, [numCells]);
+
+  // useEffect para REGISTRAR as refs no contexto quando elas mudarem
+  useEffect(() => {
+    // Filtra apenas as refs válidas (que têm um .current)
+    const validCellRefs = cellRefs.current.filter(ref => ref?.current);
+
+    if (validCellRefs.length > 0) {
+      // Registra as refs válidas no contexto
+      registerScannableElements(validCellRefs);
+    } else {
+       // Se não há refs válidas (ex: board vazio), informa o contexto
+       registerScannableElements([]); // Ou use clearScannableElements() se preferir
+    }
+
+    // Função de limpeza: Limpa os elementos registrados quando o Board desmontar
+    // ou quando a lista de células válidas mudar significativamente (ex: ficar vazia)
+    return () => {
+      clearScannableElements();
+    };
+    // Dependências: Roda quando o array de refs mudar (após a atualização do DOM)
+    // ou quando as funções do contexto mudarem (pouco provável, mas seguro incluir)
+  }, [board, numCells, registerScannableElements, clearScannableElements]); // Depender de numCells garante que roda após as refs serem ajustadas
 
   const baseURL = import.meta.env.VITE_API_BASE_URL
 
@@ -127,6 +169,7 @@ function Board() {
         console.log("Após sair do modo edição => UpdateBoard");
         const updatedBoard = await updateImgPreview();
         await updateBoard(updatedBoard);
+        fetchCategorizedBoards();
         setHasBoardChanges(false);
       }
     }
@@ -157,8 +200,10 @@ function Board() {
   return (
     <BoardContainer $dimensions={dimensions}>
       {Array.from({ length: board.numCells }).map((_, index) => {
-        // Verifica se existe uma célula definida no array 'board.cells' para este índice
+        // Verifica se existe uma célula definida no array 'board.cells' para este índice:
         const cellData = board.cells && board.cells[index];
+        // Pega a ref correta para a célula:
+        const cellRef = cellRefs.current[index];
 
         return (
           <BoardItem key={index}>
@@ -166,6 +211,7 @@ function Board() {
               // Se cellData existe e não é null/undefined (ou qualquer valor que signifique 'vazio')
               cellData ?
               <Cell
+                ref={cellRef} // Passa a ref individual para a Cel
                 index={index}
                 cell={cellData} // Passa a célula encontrada
                 setTargetIndex={setTargetIndex}

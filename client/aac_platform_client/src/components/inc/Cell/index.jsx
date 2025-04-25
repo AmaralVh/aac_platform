@@ -1,4 +1,4 @@
-import { useCallback, useState } from "react";
+import { useCallback, useState, forwardRef } from "react";
 import CellText from "../CellText";
 import Symbol from "../Symbol";
 import {
@@ -9,16 +9,18 @@ import { usePhrase } from "../../contexts/PhraseContext";
 import useLongPress from "../../hooks/useLongPress";
 import { useBoard } from "../../contexts/BoardContext";
 import api from "../../../services/api";
+import { useScanning } from "../../contexts/ScanningContext";
 
 
-function Cell({ index, cell, setTargetIndex, targetIndex, onDrop, bounceCells }) {
+const Cell = forwardRef(({ index, cell, setTargetIndex, targetIndex, onDrop, bounceCells, ...props }, ref) => {
   const {editing, setActiveCell, configCell, setConfigCell} = useCell();
   const {addWord} = usePhrase();
   const {board, setBoard, categorizedBoards, boardStack, setBoardStack} = useBoard();
+  const {isScanning} = useScanning();
   const [isDragging, setIsDragging] = useState(false);
 
   const handleLongPress = useCallback(async () => {
-    if (!editing) {
+    if (!editing && !isScanning) {
       console.log("Long press na célula:", cell?.text);
 
       // Pega as categorias da célula e as tags do board com segurança
@@ -47,7 +49,7 @@ function Cell({ index, cell, setTargetIndex, targetIndex, onDrop, bounceCells })
             const targetBoard = categorizedBoards[nextRelevantCategory][0];
             
             const response = await api.get(`/board/getById/${targetBoard._id}`); 
-            let newBoardStack = boardStack;
+            const newBoardStack = boardStack;
             newBoardStack.push(board);
             setBoardStack(newBoardStack);
             const populatedBoard = response.data;
@@ -66,7 +68,7 @@ function Cell({ index, cell, setTargetIndex, targetIndex, onDrop, bounceCells })
         if (!Array.isArray(cellCategories)) console.warn("cell.categories não é um array:", cellCategories);
         if (!Array.isArray(currentBoardTags)) console.warn("board.tags não é um array:", currentBoardTags);
       }
-  }
+    }
   }, [editing]);
 
   const longPressHandlers = useLongPress(handleLongPress, { delay: 1000 });
@@ -74,7 +76,11 @@ function Cell({ index, cell, setTargetIndex, targetIndex, onDrop, bounceCells })
 
 
 
-  function handleCellClick() {
+  function handleCellClick(event) {
+    if (isScanning && event && event.isTrusted) {
+      return; // IGNORA o clique direto do usuário durante a varredura
+    }
+
     if(editing) {
       if(!configCell) {
         setConfigCell({ ...cell, indexOnBoard: index });
@@ -90,6 +96,7 @@ function Cell({ index, cell, setTargetIndex, targetIndex, onDrop, bounceCells })
 
   return (
     <CellContainer 
+      ref={ref}
       {...(!editing ? longPressHandlers : {})}
       draggable={editing}
       $editing={editing}
@@ -121,6 +128,6 @@ function Cell({ index, cell, setTargetIndex, targetIndex, onDrop, bounceCells })
       <CellText text={cell.text} />
     </CellContainer>
   );
-}
+});
 
 export default Cell;
