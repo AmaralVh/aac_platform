@@ -48,9 +48,13 @@ function FeatureBar() {
 
   return (
     <FeatBarContainer $editing={editing}>
-      <DivBack>
-        <Button onClick={boardBack} text="Voltar" height="50%" width="5vw"/>
-      </DivBack>
+      {
+        boardStack.length >= 1 &&
+        <DivBack>
+          <Button onClick={boardBack} text="Voltar" height="50%" width="5vw"/>
+        </DivBack>
+      }
+      
       <BoardName>{board?.name}</BoardName>
       <DivKeyboard>
         <Button onClick={speech} text="Falar" height="50%" width="5vw"/>
@@ -64,7 +68,7 @@ function FeatureBar() {
       }
       {
         !editing &&
-        <Button onClick={scanningControl} text={isScanning ? 'Desativar Varredura' : 'Ativar Varredura'} height="50%" width="9vw"/>
+        <Button onClick={scanningControl} text={isScanning ? 'Desativar Varredura' : 'Ativar Varredura'} height="50%" width="11vw"/>
       }
     </FeatBarContainer>
   );

@@ -80,18 +80,6 @@ function SideBar() {
     }
   };
 
-  const alwaysVisibleItems = [
-    <Item key="logo" onClick={(e) => handleItemClick(e)}>
-        <SideBarButton text="Logo e Marca" height="125%" width="86%" fontSize="1vw" activeButton={location.pathname} />
-    </Item>,
-    <Item key="account" onClick={(e) => handleItemClick(e)}>
-        <SideBarButton to="/account" text="Contas e usuários" height="100%" fontSize="1vw" activeButton={location.pathname} />
-    </Item>,
-    <Item key="about" onClick={(e) => handleItemClick(e)}>
-        <SideBarButton text="Sobre a plataforma" height="100%" fontSize="1vw" activeButton={location.pathname} />
-    </Item>,
-  ];
-
   const loggedInOnlyItems = [
     <Item key="cur-board" onClick={(e) => handleItemClick(e)}>
         <SideBarButton to="/cur-board" text="Prancha atual" height="100%" fontSize="1vw" activeButton={location.pathname} />
@@ -117,8 +105,16 @@ function SideBar() {
       >
         <NavContainer>
           <NavList>
-            {alwaysVisibleItems}
+          <Item key="logo" onClick={(e) => handleItemClick(e)}>
+            <SideBarButton text="Logo e Marca" height="125%" width="86%" fontSize="1vw" activeButton={location.pathname} />
+          </Item>
             {token && loggedInOnlyItems}
+            <Item key="account" onClick={(e) => handleItemClick(e)}>
+              <SideBarButton to="/account" text="Contas e usuários" height="100%" fontSize="1vw" activeButton={location.pathname} />
+            </Item>
+            <Item key="about" onClick={(e) => handleItemClick(e)}>
+              <SideBarButton text="Sobre a plataforma" height="100%" fontSize="1vw" activeButton={location.pathname} />
+            </Item>
           </NavList>
         </NavContainer>
       </SideBarContainer>

@@ -4,7 +4,6 @@ import SideBar from '../inc/SideBar';
 import Board from '../inc/Board';
 import { useCell } from '../contexts/CellContext';
 import ConfigMenu from '../inc/ConfigMenu';
-import { PhraseContextProvider } from '../contexts/PhraseContext';
 import { useSidebar } from '../contexts/SideBarContext';
 import { useBoard } from '../contexts/BoardContext';
 
@@ -46,20 +45,18 @@ function PageCurrentBoard() {
   };
 
   return (
-    <PhraseContextProvider>
-      <PageContainer> 
-        <FeatureBar/>
-        <MainSection>
-          <SideBar/>
-          <BoardSpace $isSidebarOpen={isSidebarOpen} >
-            <Board/>
-          </BoardSpace>
-        </MainSection>
-        {(configCell || configBoard) && editing && 
-          <ConfigMenu/>
-        }
-      </PageContainer>
-    </PhraseContextProvider>
+    <PageContainer> 
+      <FeatureBar/>
+      <MainSection>
+        <SideBar/>
+        <BoardSpace $isSidebarOpen={isSidebarOpen} >
+          <Board/>
+        </BoardSpace>
+      </MainSection>
+      {(configCell || configBoard) && editing && 
+        <ConfigMenu/>
+      }
+    </PageContainer>
   );
 }
 

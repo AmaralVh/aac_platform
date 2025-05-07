@@ -4,7 +4,7 @@ import { NavLink as Link } from 'react-router-dom';
 export const ButtonContainer = styled(Link)`
   width: ${({$width}) => ($width ? $width : "100%")};
   height: ${({$height}) => ($height ? $height : "100%")};
-  background-color: ${({$activeButton}) => ($activeButton ? "#003466" : "white")};
+  background-color: ${({$activeButton}) => (($activeButton) ? "#003466" : "white")};
   padding: ${({$padding}) => ($padding ? $padding : "0")};
   border: none;
   display:flex;
@@ -18,6 +18,14 @@ export const ButtonContainer = styled(Link)`
     cursor: pointer;
     background-color: ${({$activeButton}) => ($activeButton ? "#003466" : "#EEEEEE")};
     color: ${({$activeButton}) => ($activeButton ? "white" : "black")};
+  }
+
+  ${({ $isEditing }) =>
+    $isEditing &&
+    `
+      filter: drop-shadow(0 1px 4px #525252);
+      background-color: #EEEEEE;
+    `
   }
 
   ${({ $activeButton }) =>

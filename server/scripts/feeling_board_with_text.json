@@ -1,0 +1,109 @@
+{
+  "name": "Sentimentos 1",
+  "numCells": 24,
+  "type": "0",
+  "userId": "67d1ba27049c3eae90ec8c9e",
+  "imgPreview": "https://static.arasaac.org/pictograms/31408/31408_300.png",
+  "dimensions": [4, 6],
+  "tags": [
+    "feeling"
+  ],
+  "cells": [
+    {
+      "cellId": "67fae5e3eea87b7263f4094c",
+      "cellType": "cell"
+    },
+    {
+      "cellId": "67fae5f6eea87b7263f40b2f",
+      "cellType": "cell"
+    },
+    {
+      "cellId": "67fae3fceea87b7263f3d763",
+      "cellType": "cell"
+    },
+    {
+      "cellId": "67fae554eea87b7263f3fa6d",
+      "cellType": "cell"
+    },
+    {
+      "cellId": "67fae34feea87b7263f3c58d",
+      "cellType": "cell"
+    },
+    {
+      "cellId": "67fae5f6eea87b7263f40b3e",
+      "cellType": "cell"
+    },
+    {
+      "cellId": "67fae7e7eea87b7263f43e68",
+      "cellType": "cell"
+    },
+    {
+      "cellId": "67fae7e6eea87b7263f43e50",
+      "cellType": "cell"
+    },
+    {
+      "cellId": "67fae50ceea87b7263f3f323",
+      "cellType": "cell"
+    },
+    {
+      "cellId": "67fae6d1eea87b7263f42191",
+      "cellType": "cell"
+    },
+    {
+      "cellId": "67fae3bdeea87b7263f3d103",
+      "cellType": "cell"
+    },
+    {
+      "cellId": "67fae5d1eea87b7263f40778",
+      "cellType": "cell"
+    },
+    {
+      "cellId": "67fae69beea87b7263f41be8",
+      "cellType": "cell"
+    },
+    {
+      "cellId": "67fae3cfeea87b7263f3d2c8",
+      "cellType": "cell"
+    },
+    {
+      "cellId": "67fae5f7eea87b7263f40b4a",
+      "cellType": "cell"
+    },
+    {
+      "cellId": "67fae7e7eea87b7263f43e62",
+      "cellType": "cell"
+    },
+    {
+      "cellId": "67fae787eea87b7263f43445",
+      "cellType": "cell"
+    },
+    {
+      "cellId": "67fae6eeeea87b7263f42482",
+      "cellType": "cell"
+    },
+    {
+      "cellId": "67fae7e6eea87b7263f43e4d",
+      "cellType": "cell"
+    },
+    {
+      "cellId": "67fae767eea87b7263f430fa",
+      "cellType": "cell"
+    },
+    {
+      "cellId": "67fae5adeea87b7263f403a9",
+      "cellType": "cell"
+    },
+    {
+      "cellId": "67fae5f5eea87b7263f40b0e",
+      "cellType": "cell"
+    },
+    {
+      "cellId": "67fae603eea87b7263f40c85",
+      "cellType": "cell"
+    },
+    {
+      "cellId": "67fae22beea87b7263f3a817",
+      "cellType": "cell"
+    }
+  ]
+}

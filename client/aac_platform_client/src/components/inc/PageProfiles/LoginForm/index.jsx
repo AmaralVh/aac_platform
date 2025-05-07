@@ -7,6 +7,7 @@ import {
 } from './styled';
 import { useState } from 'react';
 import { useUser } from '../../../contexts/UserContext';
+import { useNavigate } from 'react-router-dom';
 
 function LoginForm() {
   const {signInUser} = useUser();
@@ -14,6 +15,8 @@ function LoginForm() {
   const [password, setPassword] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false); 
   const [error, setError] = useState(null); 
+
+  const navigate = useNavigate();
 
   async function handleEnterButton(e) {
     e.preventDefault();
@@ -26,9 +29,13 @@ function LoginForm() {
         password
       }
 
-      await signInUser(loginData);
+      const success = await signInUser(loginData);
 
-      console.log("Login successfully done");
+      if(success) {
+        console.log("Login successfully done");
+        navigate('/cur-board');
+      }
+      
       setEmail("");
       setPassword("");
     } catch(error) {

@@ -8,6 +8,7 @@ import { BoardContextProvider } from "./components/contexts/BoardContext";
 import { UserContextProvider } from "./components/contexts/UserContext";
 import { SidebarProvider } from "./components/contexts/SideBarContext";
 import { ScanningContextProvider } from "./components/contexts/ScanningContext";
+import { PhraseContextProvider } from "./components/contexts/PhraseContext";
 
 const AppContainer = styled.div`
   height: 100%;
@@ -37,19 +38,21 @@ function App() {
     <AppContainer>
       <GlobalStyle/>
         <BrowserRouter>
-          <ScanningContextProvider>
-            <SidebarProvider>
-              <UserContextProvider>
-                <PageContextProvider>
-                  <BoardContextProvider>
-                    <CellContextProvider>
-                      <Router/>
-                    </CellContextProvider>
-                  </BoardContextProvider>
-                </PageContextProvider>
-              </UserContextProvider>
-            </SidebarProvider>
-          </ScanningContextProvider>
+          <PhraseContextProvider>
+            <ScanningContextProvider>
+              <SidebarProvider>
+                <UserContextProvider>
+                  <PageContextProvider>
+                    <BoardContextProvider>
+                      <CellContextProvider>
+                        <Router/>
+                      </CellContextProvider>
+                    </BoardContextProvider>
+                  </PageContextProvider>
+                </UserContextProvider>
+              </SidebarProvider>
+            </ScanningContextProvider>
+          </PhraseContextProvider>  
         </BrowserRouter>
     </AppContainer>
   );

@@ -13,9 +13,10 @@ export const ButtonContainer = styled.button`
   font-weight: ${({$fontWeight}) => ($fontWeight ? $fontWeight : "400")};
   border: 2px solid #525252;
   margin: ${({$margin}) => ($margin ? $margin : "0")};
+  filter: drop-shadow(0 4px 3px gray);
 
   &:hover {
     cursor: pointer;
-    
+    filter: drop-shadow(0 4px 5px gray);
   }
 `;

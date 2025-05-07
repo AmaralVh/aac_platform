@@ -112,7 +112,7 @@ export function UserContextProvider({ children }) {
         // Set default header for subsequent API calls in this session
         api.defaults.headers.common['Authorization'] = `Bearer ${receivedToken}`;
         console.log(message || "Login successful");
-        // No need to return anything specific unless your component needs it
+        return true;
       } else {
          // Handle case where backend sends 200 but no token (shouldn't happen with your code)
          throw new Error("Login successful but no token received.");

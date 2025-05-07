@@ -64,7 +64,7 @@ export async function getCellsByText(req, res) {
     const foundCells = await Cell.find({ text: { $regex: keyText, $options: "i" } });
 
     if(foundCells.length === 0) {
-      res.status(404).send({ message: "Cells not found by text: ", foundCells });
+      return res.status(404).send({ message: "Cells not found by text: ", foundCells });
     }
 
     res.status(200).send(foundCells);

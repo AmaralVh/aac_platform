@@ -1,0 +1,110 @@
+{
+  "name": "Necessidades básicas",
+  "numCells": 24,
+  "dimensions": [4, 6],
+  "type": "0",
+  "userId": "67d1ba27049c3eae90ec8c9e",
+  "imgPreview": "https://static.arasaac.org/pictograms/24503/24503_300.png",
+  "tags": [
+    "core",
+    "basic needs"
+  ],
+  "cells": [
+    {
+      "cellId": "67fae4abeea87b7263f3e921",
+      "cellType": "cell"
+    },
+    {
+      "cellId": "67fae6adeea87b7263f41dd4",
+      "cellType": "cell"
+    },
+    {
+      "cellId": "67fae7bdeea87b7263f43a03",
+      "cellType": "cell"
+    },
+    {
+      "cellId": "67fae688eea87b7263f419e7",
+      "cellType": "cell"
+    },
+    {
+      "cellId": "67fae75eeea87b7263f4300d",
+      "cellType": "cell"
+    },
+    {
+      "cellId": "67fae661eea87b7263f415e5",
+      "cellType": "cell"
+    },
+    {
+      "cellId": "67fae550eea87b7263f3f9ec",
+      "cellType": "cell"
+    },
+    {
+      "cellId": "67fae659eea87b7263f41510",
+      "cellType": "cell"
+    },
+    {
+      "cellId": "67fae552eea87b7263f3fa2b",
+      "cellType": "cell"
+    },
+    {
+      "cellId": "67fae47ceea87b7263f3e483",
+      "cellType": "cell"
+    },
+    {
+      "cellId": "67fae6e9eea87b7263f423f2",
+      "cellType": "cell"
+    },
+    {
+      "cellId": "67fae30ceea87b7263f3be97",
+      "cellType": "cell"
+    },
+    {
+      "cellId": "67fae744eea87b7263f42d67",
+      "cellType": "cell"
+    },
+    {
+      "cellId": "67fae65aeea87b7263f41540",
+      "cellType": "cell"
+    },
+    {
+      "cellId": "67fae452eea87b7263f3e021",
+      "cellType": "cell"
+    },
+    {
+      "cellId": "67fae30deea87b7263f3bec4",
+      "cellType": "cell"
+    },
+    {
+      "cellId": "67fae317eea87b7263f3bfc6",
+      "cellType": "cell"
+    },
+    {
+      "cellId": "67fae69ceea87b7263f41c06",
+      "cellType": "cell"
+    },
+    {
+      "cellId": "67fae292eea87b7263f3b279",
+      "cellType": "cell"
+    },
+    {
+      "cellId": "67fae68feea87b7263f41aad",
+      "cellType": "cell"
+    },
+    {
+      "cellId": "67fae744eea87b7263f42d64",
+      "cellType": "cell"
+    },
+    {
+      "cellId": "67fae69beea87b7263f41bee",
+      "cellType": "cell"
+    },
+    {
+      "cellId": "67fae34eeea87b7263f3c569",
+      "cellType": "cell"
+    },
+    {
+      "cellId": "67fae385eea87b7263f3cb30",
+      "cellType": "cell"
+    }
+  ]
+}

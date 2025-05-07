@@ -6,10 +6,10 @@ import path from 'path';
 const API_BASE_URL = 'http://localhost:5000'; // Base URL for API calls
 const API_ENDPOINT_GET_ALL = `${API_BASE_URL}/cell/get`; // Endpoint to get all cells
 const API_ENDPOINT_GET_ONE = `${API_BASE_URL}/cell/get`; // Endpoint to get one cell by ID (adjust if different)
-const OUTPUT_JSON_FILE = 'animal_board_with_text.json';
+const OUTPUT_JSON_FILE = 'basic_nees_board_with_text.json';
 const BOARD_SIZE = 24;
-const BOARD_NAME = 'Animais 8';
-const TARGET_CATEGORY = 'animal'; // This will also be used for the tag
+const BOARD_NAME = 'Necessidades básicas';
+const TARGET_CATEGORY = 'basic needs'; // This will also be used for the tag
 const BOARD_TYPE = '0';
 const USER_ID = '67d1ba27049c3eae90ec8c9e';
 // ---------------------

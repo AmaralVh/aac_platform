@@ -250,7 +250,8 @@
     "img": "https://static.arasaac.org/pictograms/2276/2276_300.png",
     "color": "#2E8B57",
     "categories": [
-      "verb"
+      "verb",
+      "basic needs"
     ]
   },
   {
@@ -759,7 +760,8 @@
     "img": "https://static.arasaac.org/pictograms/2343/2343_300.png",
     "color": "#4169E1",
     "categories": [
-      "animal"
+      "animal",
+      "reptile"
     ]
   },
   {
@@ -798,7 +800,8 @@
     "img": "https://static.arasaac.org/pictograms/2349/2349_300.png",
     "color": "#2E8B57",
     "categories": [
-      "verb"
+      "verb",
+      "basic needs"
     ]
   },
   {
@@ -930,7 +933,8 @@
     "img": "https://static.arasaac.org/pictograms/2369/2369_300.png",
     "color": "#2E8B57",
     "categories": [
-      "verb"
+      "verb",
+      "basic needs"
     ]
   },
   {
@@ -2364,7 +2368,8 @@
     "img": "https://static.arasaac.org/pictograms/2568/2568_300.png",
     "color": "#4169E1",
     "categories": [
-      "animal"
+      "animal",
+      "reptile"
     ]
   },
   {
@@ -2565,7 +2570,8 @@
     "img": "https://static.arasaac.org/pictograms/2596/2596_300.png",
     "color": "#4169E1",
     "categories": [
-      "animal"
+      "animal",
+      "reptile"
     ]
   },
   {
@@ -3746,7 +3752,8 @@
     "img": "https://static.arasaac.org/pictograms/2781/2781_300.png",
     "color": "#2E8B57",
     "categories": [
-      "verb"
+      "verb",
+      "basic needs"
     ]
   },
   {
@@ -4879,7 +4886,8 @@
     "img": "https://static.arasaac.org/pictograms/2950/2950_300.png",
     "color": "#4169E1",
     "categories": [
-      "animal"
+      "animal",
+      "reptile"
     ]
   },
   {
@@ -4888,7 +4896,8 @@
     "img": "https://static.arasaac.org/pictograms/2949/2949_300.png",
     "color": "#4169E1",
     "categories": [
-      "animal"
+      "animal",
+      "reptile"
     ]
   },
   {
@@ -5272,7 +5281,8 @@
     "img": "https://static.arasaac.org/pictograms/3003/3003_300.png",
     "color": "#4169E1",
     "categories": [
-      "animal"
+      "animal",
+      "reptile"
     ]
   },
   {
@@ -6979,7 +6989,8 @@
     "img": "https://static.arasaac.org/pictograms/3251/3251_300.png",
     "color": "#2E8B57",
     "categories": [
-      "verb"
+      "verb",
+      "basic needs"
     ]
   },
   {
@@ -7334,7 +7345,8 @@
     "img": "https://static.arasaac.org/pictograms/3299/3299_300.png",
     "color": "#2E8B57",
     "categories": [
-      "verb"
+      "verb",
+      "basic needs"
     ]
   },
   {
@@ -8175,7 +8187,8 @@
     "img": "https://static.arasaac.org/pictograms/3428/3428_300.png",
     "color": "#2E8B57",
     "categories": [
-      "verb"
+      "verb",
+      "basic needs"
     ]
   },
   {
@@ -8184,7 +8197,8 @@
     "img": "https://static.arasaac.org/pictograms/3429/3429_300.png",
     "color": "#2E8B57",
     "categories": [
-      "verb"
+      "verb",
+      "basic needs"
     ]
   },
   {
@@ -10020,7 +10034,8 @@
     "img": "https://static.arasaac.org/pictograms/4880/4880_300.png",
     "color": "#2E8B57",
     "categories": [
-      "verb"
+      "verb",
+      "basic needs"
     ]
   },
   {
@@ -10451,7 +10466,9 @@
     "text": "esfomeado",
     "img": "https://static.arasaac.org/pictograms/4962/4962_300.png",
     "color": "#FF8C00",
-    "categories": []
+    "categories": [
+      "basic needs"
+    ]
   },
   {
     "_id": "67fae2c3eea87b7263f3b77a",
@@ -10493,7 +10510,9 @@
     "text": "sede",
     "img": "https://static.arasaac.org/pictograms/4963/4963_300.png",
     "color": "#FF69B4",
-    "categories": []
+    "categories": [
+      "basic needs"
+    ]
   },
   {
     "_id": "67fae2c4eea87b7263f3b78c",
@@ -13753,7 +13772,8 @@
     "img": "https://static.arasaac.org/pictograms/6044/6044_300.png",
     "color": "#2E8B57",
     "categories": [
-      "verb"
+      "verb",
+      "basic needs"
     ]
   },
   {
@@ -13883,7 +13903,8 @@
     "img": "https://static.arasaac.org/pictograms/6061/6061_300.png",
     "color": "#2E8B57",
     "categories": [
-      "verb"
+      "verb",
+      "basic needs"
     ]
   },
   {
@@ -14993,7 +15014,8 @@
     "img": "https://static.arasaac.org/pictograms/6456/6456_300.png",
     "color": "#2E8B57",
     "categories": [
-      "verb"
+      "verb",
+      "basic needs"
     ]
   },
   {
@@ -15113,7 +15135,8 @@
     "img": "https://static.arasaac.org/pictograms/6479/6479_300.png",
     "color": "#2E8B57",
     "categories": [
-      "verb"
+      "verb",
+      "basic needs"
     ]
   },
   {
@@ -15779,7 +15802,8 @@
     "img": "https://static.arasaac.org/pictograms/6564/6564_300.png",
     "color": "#2E8B57",
     "categories": [
-      "verb"
+      "verb",
+      "basic needs"
     ]
   },
   {
@@ -16260,7 +16284,8 @@
     "img": "https://static.arasaac.org/pictograms/6627/6627_300.png",
     "color": "#2E8B57",
     "categories": [
-      "verb"
+      "verb",
+      "basic needs"
     ]
   },
   {
@@ -19538,7 +19563,8 @@
     "img": "https://static.arasaac.org/pictograms/7272/7272_300.png",
     "color": "#2E8B57",
     "categories": [
-      "verb"
+      "verb",
+      "basic needs"
     ]
   },
   {
@@ -19556,7 +19582,8 @@
     "img": "https://static.arasaac.org/pictograms/7273/7273_300.png",
     "color": "#FF69B4",
     "categories": [
-      "verb"
+      "verb",
+      "basic needs"
     ]
   },
   {
@@ -19782,7 +19809,8 @@
     "img": "https://static.arasaac.org/pictograms/7302/7302_300.png",
     "color": "#2E8B57",
     "categories": [
-      "verb"
+      "verb",
+      "basic needs"
     ]
   },
   {
@@ -20162,7 +20190,8 @@
     "img": "https://static.arasaac.org/pictograms/7806/7806_300.png",
     "color": "#4169E1",
     "categories": [
-      "animal"
+      "animal",
+      "reptile"
     ]
   },
   {
@@ -23221,7 +23250,8 @@
     "img": "https://static.arasaac.org/pictograms/8521/8521_300.png",
     "color": "#2E8B57",
     "categories": [
-      "verb"
+      "verb",
+      "basic needs"
     ]
   },
   {
@@ -24614,7 +24644,8 @@
     "img": "https://static.arasaac.org/pictograms/8716/8716_300.png",
     "color": "#4169E1",
     "categories": [
-      "animal"
+      "animal",
+      "reptile"
     ]
   },
   {
@@ -27951,7 +27982,8 @@
     "img": "https://static.arasaac.org/pictograms/10241/10241_300.png",
     "color": "#4169E1",
     "categories": [
-      "animal"
+      "animal",
+      "reptile"
     ]
   },
   {
@@ -29664,7 +29696,8 @@
     "img": "https://static.arasaac.org/pictograms/11233/11233_300.png",
     "color": "#2E8B57",
     "categories": [
-      "verb"
+      "verb",
+      "basic needs"
     ]
   },
   {
@@ -31457,7 +31490,8 @@
     "img": "https://static.arasaac.org/pictograms/11605/11605_300.png",
     "color": "#2E8B57",
     "categories": [
-      "verb"
+      "verb",
+      "basic needs"
     ]
   },
   {
@@ -32122,7 +32156,9 @@
     "text": "apoio",
     "img": "https://static.arasaac.org/pictograms/12252/12252_300.png",
     "color": "#4169E1",
-    "categories": []
+    "categories": [
+      "basic needs"
+    ]
   },
   {
     "_id": "67fae40ceea87b7263f3d90a",
@@ -36413,7 +36449,8 @@
     "img": "https://static.arasaac.org/pictograms/16643/16643_300.png",
     "color": "#2E8B57",
     "categories": [
-      "verb"
+      "verb",
+      "basic needs"
     ]
   },
   {
@@ -36599,7 +36636,8 @@
     "img": "https://static.arasaac.org/pictograms/16709/16709_300.png",
     "color": "#2E8B57",
     "categories": [
-      "verb"
+      "verb",
+      "basic needs"
     ]
   },
   {
@@ -36617,7 +36655,8 @@
     "img": "https://static.arasaac.org/pictograms/16713/16713_300.png",
     "color": "#2E8B57",
     "categories": [
-      "verb"
+      "verb",
+      "basic needs"
     ]
   },
   {
@@ -37902,7 +37941,9 @@
     "text": "ajuda",
     "img": "https://static.arasaac.org/pictograms/19524/19524_300.png",
     "color": "#4169E1",
-    "categories": []
+    "categories": [
+      "basic needs"
+    ]
   },
   {
     "_id": "67fae465eea87b7263f3e219",
@@ -39498,7 +39539,8 @@
     "img": "https://static.arasaac.org/pictograms/21919/21919_300.png",
     "color": "#2E8B57",
     "categories": [
-      "verb"
+      "verb",
+      "basic needs"
     ]
   },
   {
@@ -39507,7 +39549,8 @@
     "img": "https://static.arasaac.org/pictograms/21921/21921_300.png",
     "color": "#2E8B57",
     "categories": [
-      "verb"
+      "verb",
+      "basic needs"
     ]
   },
   {
@@ -41016,7 +41059,8 @@
     "img": "https://static.arasaac.org/pictograms/23863/23863_300.png",
     "color": "#4169E1",
     "categories": [
-      "animal"
+      "animal",
+      "reptile"
     ]
   },
   {
@@ -42411,7 +42455,9 @@
     "text": "descanso",
     "img": "https://static.arasaac.org/pictograms/24503/24503_300.png",
     "color": "#4169E1",
-    "categories": []
+    "categories": [
+      "basic needs"
+    ]
   },
   {
     "_id": "67fae4abeea87b7263f3e924",
@@ -46673,7 +46719,8 @@
     "img": "https://static.arasaac.org/pictograms/26134/26134_300.png",
     "color": "#4169E1",
     "categories": [
-      "animal"
+      "animal",
+      "reptile"
     ]
   },
   {
@@ -47543,7 +47590,8 @@
     "img": "https://static.arasaac.org/pictograms/26503/26503_300.png",
     "color": "#4169E1",
     "categories": [
-      "animal"
+      "animal",
+      "reptile"
     ]
   },
   {
@@ -52698,7 +52746,8 @@
     "img": "https://static.arasaac.org/pictograms/28413/28413_300.png",
     "color": "#2E8B57",
     "categories": [
-      "verb"
+      "verb",
+      "basic needs"
     ]
   },
   {
@@ -52707,7 +52756,8 @@
     "img": "https://static.arasaac.org/pictograms/28414/28414_300.png",
     "color": "#2E8B57",
     "categories": [
-      "verb"
+      "verb",
+      "basic needs"
     ]
   },
   {
@@ -52716,7 +52766,8 @@
     "img": "https://static.arasaac.org/pictograms/28415/28415_300.png",
     "color": "#2E8B57",
     "categories": [
-      "verb"
+      "verb",
+      "basic needs"
     ]
   },
   {
@@ -52752,7 +52803,8 @@
     "img": "https://static.arasaac.org/pictograms/28425/28425_300.png",
     "color": "#2E8B57",
     "categories": [
-      "verb"
+      "verb",
+      "basic needs"
     ]
   },
   {
@@ -52760,7 +52812,9 @@
     "text": "sesta",
     "img": "https://static.arasaac.org/pictograms/28426/28426_300.png",
     "color": "#4169E1",
-    "categories": []
+    "categories": [
+      "basic needs"
+    ]
   },
   {
     "_id": "67fae549eea87b7263f3f92f",
@@ -53275,7 +53329,8 @@
     "img": "https://static.arasaac.org/pictograms/28613/28613_300.png",
     "color": "#2E8B57",
     "categories": [
-      "verb"
+      "verb",
+      "basic needs"
     ]
   },
   {
@@ -53293,7 +53348,8 @@
     "img": "https://static.arasaac.org/pictograms/28614/28614_300.png",
     "color": "#2E8B57",
     "categories": [
-      "verb"
+      "verb",
+      "basic needs"
     ]
   },
   {
@@ -53338,7 +53394,8 @@
     "img": "https://static.arasaac.org/pictograms/28623/28623_300.png",
     "color": "#2E8B57",
     "categories": [
-      "verb"
+      "verb",
+      "basic needs"
     ]
   },
   {
@@ -53370,7 +53427,8 @@
     "img": "https://static.arasaac.org/pictograms/28641/28641_300.png",
     "color": "#2E8B57",
     "categories": [
-      "verb"
+      "verb",
+      "basic needs"
     ]
   },
   {
@@ -53454,7 +53512,8 @@
     "img": "https://static.arasaac.org/pictograms/28649/28649_300.png",
     "color": "#2E8B57",
     "categories": [
-      "verb"
+      "verb",
+      "basic needs"
     ]
   },
   {
@@ -56997,7 +57056,8 @@
     "img": "https://static.arasaac.org/pictograms/29716/29716_300.png",
     "color": "#2E8B57",
     "categories": [
-      "verb"
+      "verb",
+      "basic needs"
     ]
   },
   {
@@ -64187,7 +64247,9 @@
     "text": "esfomeado",
     "img": "https://static.arasaac.org/pictograms/31890/31890_300.png",
     "color": "#FF8C00",
-    "categories": []
+    "categories": [
+      "basic needs"
+    ]
   },
   {
     "_id": "67fae5f5eea87b7263f40b1d",
@@ -64305,7 +64367,8 @@
     "img": "https://static.arasaac.org/pictograms/31937/31937_300.png",
     "color": "#2E8B57",
     "categories": [
-      "verb"
+      "verb",
+      "basic needs"
     ]
   },
   {
@@ -65068,7 +65131,8 @@
     "img": "https://static.arasaac.org/pictograms/32135/32135_300.png",
     "color": "#2E8B57",
     "categories": [
-      "verb"
+      "verb",
+      "basic needs"
     ]
   },
   {
@@ -65083,7 +65147,9 @@
     "text": "sede",
     "img": "https://static.arasaac.org/pictograms/32140/32140_300.png",
     "color": "#FF69B4",
-    "categories": []
+    "categories": [
+      "basic needs"
+    ]
   },
   {
     "_id": "67fae602eea87b7263f40c7f",
@@ -65372,7 +65438,8 @@
     "img": "https://static.arasaac.org/pictograms/32214/32214_300.png",
     "color": "#2E8B57",
     "categories": [
-      "verb"
+      "verb",
+      "basic needs"
     ]
   },
   {
@@ -65540,7 +65607,8 @@
     "img": "https://static.arasaac.org/pictograms/32264/32264_300.png",
     "color": "#2E8B57",
     "categories": [
-      "verb"
+      "verb",
+      "basic needs"
     ]
   },
   {
@@ -67948,7 +68016,8 @@
     "img": "https://static.arasaac.org/pictograms/32908/32908_300.png",
     "color": "#2E8B57",
     "categories": [
-      "verb"
+      "verb",
+      "basic needs"
     ]
   },
   {
@@ -68297,7 +68366,8 @@
     "img": "https://static.arasaac.org/pictograms/33004/33004_300.png",
     "color": "#2E8B57",
     "categories": [
-      "verb"
+      "verb",
+      "basic needs"
     ]
   },
   {
@@ -70523,7 +70593,8 @@
     "img": "https://static.arasaac.org/pictograms/34377/34377_300.png",
     "color": "#2E8B57",
     "categories": [
-      "verb"
+      "verb",
+      "basic needs"
     ]
   },
   {
@@ -70648,7 +70719,8 @@
     "img": "https://static.arasaac.org/pictograms/34409/34409_300.png",
     "color": "#2E8B57",
     "categories": [
-      "verb"
+      "verb",
+      "basic needs"
     ]
   },
   {
@@ -70761,7 +70833,8 @@
     "img": "https://static.arasaac.org/pictograms/34433/34433_300.png",
     "color": "#4169E1",
     "categories": [
-      "animal"
+      "animal",
+      "reptile"
     ]
   },
   {
@@ -71097,7 +71170,8 @@
     "img": "https://static.arasaac.org/pictograms/34508/34508_300.png",
     "color": "#2E8B57",
     "categories": [
-      "verb"
+      "verb",
+      "basic needs"
     ]
   },
   {
@@ -71326,7 +71400,8 @@
     "img": "https://static.arasaac.org/pictograms/34581/34581_300.png",
     "color": "#4169E1",
     "categories": [
-      "animal"
+      "animal",
+      "reptile"
     ]
   },
   {
@@ -71466,7 +71541,8 @@
     "img": "https://static.arasaac.org/pictograms/34589/34589_300.png",
     "color": "#4169E1",
     "categories": [
-      "animal"
+      "animal",
+      "reptile"
     ]
   },
   {
@@ -73162,7 +73238,8 @@
     "img": "https://static.arasaac.org/pictograms/35051/35051_300.png",
     "color": "#4169E1",
     "categories": [
-      "animal"
+      "animal",
+      "reptile"
     ]
   },
   {
@@ -73369,7 +73446,8 @@
     "img": "https://static.arasaac.org/pictograms/35103/35103_300.png",
     "color": "#2E8B57",
     "categories": [
-      "verb"
+      "verb",
+      "basic needs"
     ]
   },
   {
@@ -73765,7 +73843,8 @@
     "img": "https://static.arasaac.org/pictograms/35211/35211_300.png",
     "color": "#2E8B57",
     "categories": [
-      "verb"
+      "verb",
+      "basic needs"
     ]
   },
   {
@@ -74241,7 +74320,8 @@
     "img": "https://static.arasaac.org/pictograms/35347/35347_300.png",
     "color": "#2E8B57",
     "categories": [
-      "verb"
+      "verb",
+      "basic needs"
     ]
   },
   {
@@ -74250,7 +74330,8 @@
     "img": "https://static.arasaac.org/pictograms/35348/35348_300.png",
     "color": "#2E8B57",
     "categories": [
-      "verb"
+      "verb",
+      "basic needs"
     ]
   },
   {
@@ -74273,7 +74354,8 @@
     "img": "https://static.arasaac.org/pictograms/35349/35349_300.png",
     "color": "#2E8B57",
     "categories": [
-      "verb"
+      "verb",
+      "basic needs"
     ]
   },
   {
@@ -74900,14 +74982,18 @@
     "text": "sedenta",
     "img": "https://static.arasaac.org/pictograms/35523/35523_300.png",
     "color": "#FF8C00",
-    "categories": []
+    "categories": [
+      "basic needs"
+    ]
   },
   {
     "_id": "67fae699eea87b7263f41bb5",
     "text": "faminta",
     "img": "https://static.arasaac.org/pictograms/35525/35525_300.png",
     "color": "#FF8C00",
-    "categories": []
+    "categories": [
+      "basic needs"
+    ]
   },
   {
     "_id": "67fae699eea87b7263f41bb8",
@@ -75062,7 +75148,9 @@
     "text": "fome",
     "img": "https://static.arasaac.org/pictograms/35559/35559_300.png",
     "color": "#FF69B4",
-    "categories": []
+    "categories": [
+      "basic needs"
+    ]
   },
   {
     "_id": "67fae69beea87b7263f41bf1",
@@ -75126,7 +75214,9 @@
     "text": "esfomeado",
     "img": "https://static.arasaac.org/pictograms/35579/35579_300.png",
     "color": "#FF8C00",
-    "categories": []
+    "categories": [
+      "basic needs"
+    ]
   },
   {
     "_id": "67fae69ceea87b7263f41c09",
@@ -76304,7 +76394,9 @@
     "text": "sesta",
     "img": "https://static.arasaac.org/pictograms/35891/35891_300.png",
     "color": "#4169E1",
-    "categories": []
+    "categories": [
+      "basic needs"
+    ]
   },
   {
     "_id": "67fae6aeeea87b7263f41dd7",
@@ -78281,7 +78373,9 @@
     "text": "sesta",
     "img": "https://static.arasaac.org/pictograms/36386/36386_300.png",
     "color": "#4169E1",
-    "categories": []
+    "categories": [
+      "basic needs"
+    ]
   },
   {
     "_id": "67fae6cceea87b7263f42101",
@@ -78295,7 +78389,9 @@
     "text": "sesta",
     "img": "https://static.arasaac.org/pictograms/36385/36385_300.png",
     "color": "#4169E1",
-    "categories": []
+    "categories": [
+      "basic needs"
+    ]
   },
   {
     "_id": "67fae6cceea87b7263f42107",
@@ -80218,7 +80314,8 @@
     "img": "https://static.arasaac.org/pictograms/36640/36640_300.png",
     "color": "#2E8B57",
     "categories": [
-      "verb"
+      "verb",
+      "basic needs"
     ]
   },
   {
@@ -86402,7 +86499,8 @@
     "img": "https://static.arasaac.org/pictograms/37457/37457_300.png",
     "color": "#2E8B57",
     "categories": [
-      "verb"
+      "verb",
+      "basic needs"
     ]
   },
   {
@@ -86411,7 +86509,8 @@
     "img": "https://static.arasaac.org/pictograms/37458/37458_300.png",
     "color": "#2E8B57",
     "categories": [
-      "verb"
+      "verb",
+      "basic needs"
     ]
   },
   {
@@ -88058,7 +88157,8 @@
     "img": "https://static.arasaac.org/pictograms/37686/37686_300.png",
     "color": "#2E8B57",
     "categories": [
-      "verb"
+      "verb",
+      "basic needs"
     ]
   },
   {
@@ -88067,7 +88167,8 @@
     "img": "https://static.arasaac.org/pictograms/37687/37687_300.png",
     "color": "#2E8B57",
     "categories": [
-      "verb"
+      "verb",
+      "basic needs"
     ]
   },
   {
@@ -90706,7 +90807,8 @@
     "img": "https://static.arasaac.org/pictograms/38035/38035_300.png",
     "color": "#2E8B57",
     "categories": [
-      "verb"
+      "verb",
+      "basic needs"
     ]
   },
   {
@@ -90715,7 +90817,8 @@
     "img": "https://static.arasaac.org/pictograms/38036/38036_300.png",
     "color": "#2E8B57",
     "categories": [
-      "verb"
+      "verb",
+      "basic needs"
     ]
   },
   {
@@ -92825,7 +92928,8 @@
     "img": "https://static.arasaac.org/pictograms/38322/38322_300.png",
     "color": "#4169E1",
     "categories": [
-      "animal"
+      "animal",
+      "reptile"
     ]
   },
   {
@@ -92902,7 +93006,8 @@
     "img": "https://static.arasaac.org/pictograms/38331/38331_300.png",
     "color": "#4169E1",
     "categories": [
-      "animal"
+      "animal",
+      "reptile"
     ]
   },
   {
@@ -92994,7 +93099,8 @@
     "img": "https://static.arasaac.org/pictograms/38342/38342_300.png",
     "color": "#4169E1",
     "categories": [
-      "animal"
+      "animal",
+      "reptile"
     ]
   },
   {
@@ -93156,7 +93262,8 @@
     "img": "https://static.arasaac.org/pictograms/38364/38364_300.png",
     "color": "#4169E1",
     "categories": [
-      "animal"
+      "animal",
+      "reptile"
     ]
   },
   {
@@ -94499,7 +94606,8 @@
     "img": "https://static.arasaac.org/pictograms/38550/38550_300.png",
     "color": "#2E8B57",
     "categories": [
-      "verb"
+      "verb",
+      "basic needs"
     ]
   },
   {
@@ -95110,7 +95218,8 @@
     "img": "https://static.arasaac.org/pictograms/38634/38634_300.png",
     "color": "#4169E1",
     "categories": [
-      "animal"
+      "animal",
+      "reptile"
     ]
   },
   {

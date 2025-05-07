@@ -37,7 +37,7 @@ const Cell = forwardRef(({ index, cell, setTargetIndex, targetIndex, onDrop, bou
           cellCat => !currentBoardTags.includes(cellCat)
         );
 
-        // Se encontrou uma categoria relevante...
+        // Se encontrou uma categoria relevante da célula...
         if (nextRelevantCategory !== undefined) {
           console.log("Próxima categoria relevante encontrada:", nextRelevantCategory);
           // Verifica se temos os boards categorizados e a lista para a categoria relevante
@@ -46,7 +46,10 @@ const Cell = forwardRef(({ index, cell, setTargetIndex, targetIndex, onDrop, bou
             Array.isArray(categorizedBoards[nextRelevantCategory]) &&
             categorizedBoards[nextRelevantCategory].length > 0) {
             // Pega o PRIMEIRO board da lista correspondente a essa categoria
-            const targetBoard = categorizedBoards[nextRelevantCategory][0];
+            const targetBoard = categorizedBoards[nextRelevantCategory].find(
+              board =>
+                board.tags?.[0] === nextRelevantCategory
+            );
             
             const response = await api.get(`/board/getById/${targetBoard._id}`); 
             const newBoardStack = boardStack;
@@ -69,7 +72,16 @@ const Cell = forwardRef(({ index, cell, setTargetIndex, targetIndex, onDrop, bou
         if (!Array.isArray(currentBoardTags)) console.warn("board.tags não é um array:", currentBoardTags);
       }
     }
-  }, [editing]);
+  }, [
+    editing,
+    isScanning,
+    cell,
+    board,
+    categorizedBoards,
+    setBoard,
+    boardStack,
+    setBoardStack
+  ]);
 
   const longPressHandlers = useLongPress(handleLongPress, { delay: 1000 });
 
